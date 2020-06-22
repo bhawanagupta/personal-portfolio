@@ -934,7 +934,7 @@ html:not(.lt-ie10) .not-animated {
 keyframes
 
 -------------------------------- */
-@  -webkit-keyframes scaleIn {
+ @-webkit-keyframes scaleIn {
     from {
     -webkit-transform: translateY(-50%) scale(0);
   }
@@ -1284,6 +1284,9 @@ div.container.page-title {
 		margin-top:26px;
 	}
 }
+.image-container .img-fluid d-block{
+height: 900px;
+}
 
 .personal-info p {
 	font-family: 'Open Sans', sans-serif;
@@ -1546,10 +1549,6 @@ body.light .personal-info ul h6 {
 .chart-bar>.percent span {
   position: relative;
   display: block;
-}
-
-.chart-bar>.percent span:before {
-  
 }
 
 .arrow {
@@ -1913,7 +1912,7 @@ section#blog figure a {
 section#blog figure a img {
   width: 100%;
   border-radius: 4px;
-  webkit-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -2321,7 +2320,6 @@ ul.social-intro {
 
 .social-intro li {
   display: inline-block;
-  float: left;
   margin-bottom: 10px;
 }
 
